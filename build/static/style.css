@@ -36,6 +36,7 @@ h1 {
 	font-size:56px;
 	line-height:44px;
 	font-weight:700;
+	text-align: center;
 }
 
 h2 {
@@ -57,6 +58,15 @@ p {
 	line-height: 30px;
 }
 
+#location {
+	margin-bottom: 20px;
+	font-family: 'Open Sans', serif;
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: center;
+}
+
 a {
 	-webkit-transition:border-color 200ms ease, color 200ms ease;
 	transition: border-color 200ms ease, color 200ms ease;
@@ -75,13 +85,16 @@ a.description:focus {
 }
 
 .content {
-	margin-top: 60px;
+	margin-top: 25px;
 }
 
 .icon {
-	margin-top: 60px;
-  	padding-right: 25px;
-  	float: left;
+	margin-top: 25px;
+  	display: flex;
+    flex-direction: row;     /* make main axis horizontal (default setting) */
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center;     /* center items vertically, in this case */
+    height: 100px;
   	border-bottom: 0px none #000;
 }
 
@@ -99,6 +112,7 @@ a.description:focus {
 	width:40px;
 	height:40px;
 	border-radius:10px;
+	margin: 0 10px;
 }
 
 .box-github:hover {
@@ -116,6 +130,7 @@ a.description:focus {
 	width:40px;
 	height:40px;
 	border-radius:10px;
+	margin: 0 10px;
 }
 
 .box-linkedin:hover {
@@ -133,6 +148,7 @@ a.description:focus {
 	width:40px;
 	height:40px;
 	border-radius:10px;
+	margin: 0 10px;
 }
 
 .box-resume:hover {
