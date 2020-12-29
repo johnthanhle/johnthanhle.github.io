@@ -1,2 +1,3 @@
-# flask-website
-Creating a better personal website using Flask.
+# Personal Website
+Created personal website using HTML/CSS, Javascript, and Flask <br>
+Shoutout to Vincent Garreau for the awesome background!
