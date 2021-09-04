@@ -1,5 +1,4 @@
 # Personal Website
-Created personal website using HTML/CSS, Javascript, and Flask <br>
-Shoutout to Vincent Garreau for the awesome background!
+Created personal website using HTML/CSS and Javascript<br>
 ## Check it out!
 It is hosted at https://johnthanhle.github.io/
