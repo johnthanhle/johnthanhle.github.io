@@ -7,7 +7,8 @@ version: 2
 
 # Personal info
 name: John Le
-title: Software Engineer
+position: Software Engineer
+title: John Le
 email: johnle@berkeley.edu
 # email_title: Email (Email title override)
 phone: 
