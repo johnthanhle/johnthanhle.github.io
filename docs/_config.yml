@@ -1,0 +1,73 @@
+# Site
+repository: johnthanhle/johnthanhle.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: John Le
+title: Software Engineer
+email: johnle@berkeley.edu
+# email_title: Email (Email title override)
+phone: 
+# phone_title: Phone (Phone title override)
+website:
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+github_username:  johnthanhle
+linkedin_username: johnle-cs
+
+# Additional icon links
+additional_links:
+- title: Resume 
+  icon: far fa-file
+  url: 
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+gtag: "G-9WB0CXTQXM"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_profile_image: images/about-photo.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I recently graduated from UC Berkeley with a degree in Computer Science and will be starting my career as a software engineer at [Rippling](https://www.rippling.com/) in February 2023.
+  During my studies, I interned at [Amazon](https://www.amazon.com/) and a small YCombinator startup called [Stryve/Circle/Shopstack](https://www.crunchbase.com/organization/stryve-io), which has since rebranded as [Quill](https://www.quillsql.com/).
+  My passion lies in full-stack and software development, as I find great fulfillment in creating applications that can make a positive impact on a wide range of people.
+  In my spare time, I enjoy playing badminton, cooking, playing Valorant, and reading.
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
