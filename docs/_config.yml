@@ -41,7 +41,7 @@ gtag: "G-9WB0CXTQXM"
 # About Section
 about_profile_image: images/about-photo.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I recently graduated from UC Berkeley with a degree in Computer Science and will be starting my career as a software engineer at [Rippling](https://www.rippling.com/) in February 2023.
+  I recently graduated from UC Berkeley with a degree in Computer Science and now I am a Software Engineer at [Rippling](https://www.rippling.com/).
   During my studies, I interned at [Amazon](https://www.amazon.com/) and a small YCombinator startup called [Stryve/Circle/Shopstack](https://www.crunchbase.com/organization/stryve-io), which has since rebranded as [Quill](https://www.quillsql.com/).
   My passion lies in full-stack and software development, as I find great fulfillment in creating applications that can make a positive impact on a wide range of people.
   In my spare time, I enjoy playing badminton, cooking, playing Valorant, and reading.
